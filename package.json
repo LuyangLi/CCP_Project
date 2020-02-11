@@ -1,0 +1,44 @@
+{
+  "name": "ccp-log-viewer",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://mahayash315.github.io/ccp-log-viewer",
+  "dependencies": {
+    "@material-ui/core": "^4.3.2",
+    "@material-ui/icons": "^4.2.1",
+    "clsx": "^1.0.4",
+    "dayjs": "^1.8.19",
+    "gh-pages": "^2.1.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-dropzone": "^10.1.7",
+    "react-json-view": "^1.19.1",
+    "react-scripts": "3.1.0",
+    "react-scroll": "^1.7.13",
+    "recharts": "^2.0.0-beta.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
